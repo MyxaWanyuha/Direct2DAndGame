@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLevel.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="HPTimer.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Levelgame15.cpp">
+      <Filter>Game15</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game15</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Bomberman\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Bomberman\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Bomberman\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteActor.cpp">
+      <Filter>Bomberman\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Bomberman\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Bomberman\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="BombermanGame.cpp">
+      <Filter>Bomberman\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BombermanLevel.cpp">
+      <Filter>Bomberman\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Bomberman\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameController.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLevel.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalConstants.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HPTimer.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Levelgame15.h">
+      <Filter>Game15</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game15</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="AI.h">
+      <Filter>Bomberman\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Bomberman\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Bomberman\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteActor.h">
+      <Filter>Bomberman\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Bomberman\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Bomberman\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="BombermanGame.h">
+      <Filter>Bomberman\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BombermanLevel.h">
+      <Filter>Bomberman\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Bomberman\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{0c1be7bb-b630-4590-bfad-57ee94d5c179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprites">
+      <UniqueIdentifier>{bd99789c-b35b-4ccb-b91e-6d27e30cf7e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header">
+      <UniqueIdentifier>{b3544650-4ab1-4c2e-b11f-0200e0286918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source">
+      <UniqueIdentifier>{60cf80f8-6360-4529-a8b9-29a37f07e5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game15">
+      <UniqueIdentifier>{7124a2aa-2a02-4b65-a8f8-dc61dfd17d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bomberman">
+      <UniqueIdentifier>{b852b2fd-e251-42d9-84ef-70ffb65f0e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bomberman\Sprites">
+      <UniqueIdentifier>{fa001f86-6e3b-4a07-b81d-bbba40b43b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bomberman\Header">
+      <UniqueIdentifier>{52b4bc49-3bca-45a9-8775-3440d06b1862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bomberman\Source">
+      <UniqueIdentifier>{9c26af2f-24fd-4927-a66b-aa466e75c46d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{a8ee9a23-d339-45ef-8bd3-420cc0462004}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="numbers.png">
+      <Filter>Game15</Filter>
+    </Image>
+    <Image Include="m_up.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="m_down.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="m_idle.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="m_left.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="m_right.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="leftTop.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="mid.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="rightBot.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="rightMid.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="rightTop.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="top.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="Bot.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="leftBot.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="leftMid.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="round.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="explosion.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="bomb.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+    <Image Include="roundBox.png">
+      <Filter>Bomberman\Sprites</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Direct2DEngine.rc" />
+  </ItemGroup>
+</Project>
