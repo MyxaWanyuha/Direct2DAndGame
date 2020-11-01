@@ -12,6 +12,6 @@ class BombermanLevel : public GameLevel
 	virtual void Unload() override;
 	virtual void Render() override;
 	void DrawDebug();
-	virtual void Update(long long timeTotal, long long timeDelta) override;
+	virtual void Update(double timeTotal, double timeDelta) override;
 };
 

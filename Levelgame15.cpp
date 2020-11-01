@@ -46,7 +46,7 @@ void Levelgame15::Render()
 	}
 }
 
-void Levelgame15::Update(long long timeTotal, long long timeDelta)
+void Levelgame15::Update(double timeTotal, double timeDelta)
 {
 	int sleep = 150;
 	if (!game->IsWin()) 

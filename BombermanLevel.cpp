@@ -79,7 +79,7 @@ void BombermanLevel::DrawDebug()
 		}
 }
 
-void BombermanLevel::Update(long long timeTotal, long long timeDelta)
+void BombermanLevel::Update(double timeTotal, double timeDelta)
 {
 	for (int i = 0; i < game->GetEnemiesCount(); i++)
 	{

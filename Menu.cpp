@@ -15,7 +15,7 @@ void Menu::Render()
 	gfx->DrawGraphicsText(m, l);
 }
 
-void Menu::Update(long long timeTotal, long long timeDelta)
+void Menu::Update(double timeTotal, double timeDelta)
 {
 	if (GameController::keyboardInput[DIK_1])
 		GameController::SwitchLevel(new Levelgame15());

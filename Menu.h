@@ -6,6 +6,6 @@ private:
 	virtual void Load() override;
 	virtual void Unload() override;
 	virtual void Render() override;
-	virtual void Update(long long timeTotal, long long timeDelta) override;
+	virtual void Update(double timeTotal, double timeDelta) override;
 };
 
