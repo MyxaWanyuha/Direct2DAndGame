@@ -31,14 +31,14 @@ public:
 		currentCallToUpdate = t.QuadPart;
 	}
 
-	long long GetTimeTotal()
+	double GetTimeTotal()
 	{
-		return (currentCallToUpdate - startTime) / frequrency;
+		return (currentCallToUpdate - startTime) / (double)frequrency;
 	}
 
-	long long GetTimeDelta()
+	double GetTimeDelta()
 	{
-		return (currentCallToUpdate - lastCallToUpdate) / frequrency;
+		return (currentCallToUpdate - lastCallToUpdate) / (double)frequrency;
 	}
 };
 
